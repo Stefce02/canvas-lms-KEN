@@ -1,8 +1,9 @@
 {
 	"name": "canvas-lms",
-	"dockerComposeFile": [],
+	"dockerComposeFile": "docker-compose.yml",
 	"service": "web",
 	"workspaceFolder": "/usr/src/app",
+	"runArgs": ["--user", "root"],
 	"customizations": {
 		"vscode": {
 			"extensions": [
